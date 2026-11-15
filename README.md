@@ -6,7 +6,7 @@ A fast, beautiful, **offline** Markdown reader & editor for Windows 10/11 — in
 
 Emdedown: say it "em-dee-down", as in .md + Markdown.
 
-<!-- TODO: add a screenshot: docs/screenshot.png -->
+![Emdedown in Split mode: Markdown on the left, the rendered table, math and diagram on the right](docs/screenshot.png)
 
 ## Install (anyone can do this)
 
