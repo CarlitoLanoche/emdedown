@@ -1,0 +1,183 @@
+/* Theme tokens. Every theme defines the same variables. */
+:root, [data-theme="light"] {
+  --font-sans: "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Iowan Old Style", "Charter", Georgia, Cambria, "Times New Roman", serif;
+  --font-mono: "Cascadia Code", "Cascadia Mono", Consolas, "SF Mono", Menlo, monospace;
+  --bg: #ffffff; --bg-ui: #f6f8fa; --bg-ui2: #eef1f4; --bg-hover: #e7ebef; --bg-sel: #ddf4ff;
+  --fg: #1f2328; --fg-muted: #59636e; --fg-faint: #8c959f;
+  --border: #d1d9e0; --border-soft: #e6ebf0;
+  --accent: #0969da; --accent-fg: #ffffff; --accent-soft: #ddf4ff;
+  --link: #0969da;
+  --code-bg: #f6f8fa; --code-inline: rgba(129,139,152,.15);
+  --mark: #fff8c5; --find: #ffe58f; --find-cur: #ff9632;
+  --quote: #59636e; --quote-bar: #d1d9e0;
+  --note: #0969da; --tip: #1a7f37; --important: #8250df; --warning: #9a6700; --caution: #d1242f;
+  --shadow: 0 8px 28px rgba(31,35,40,.14), 0 1px 3px rgba(31,35,40,.08);
+  --hl-keyword: #cf222e; --hl-string: #0a3069; --hl-comment: #6e7781; --hl-number: #0550ae; --hl-title: #8250df; --hl-attr: #0550ae; --hl-type: #953800; --hl-meta: #1f2328; --hl-add: #116329; --hl-del: #82071e;
+  --ed-heading: #0550ae; --ed-link: #0969da; --ed-code: #953800; --ed-mark: #8c959f; --ed-quote: #6e7781; --ed-keyword: #cf222e; --ed-string: #0a3069;
+  color-scheme: light;
+}
+[data-theme="dark"] {
+  --bg: #0d1117; --bg-ui: #151b23; --bg-ui2: #1b222c; --bg-hover: #212a35; --bg-sel: #1f3a5c;
+  --fg: #e6edf3; --fg-muted: #9198a1; --fg-faint: #656c76;
+  --border: #30363d; --border-soft: #232a33;
+  --accent: #4493f8; --accent-fg: #0d1117; --accent-soft: #15304f;
+  --link: #4493f8;
+  --code-bg: #151b23; --code-inline: rgba(101,108,118,.25);
+  --mark: #5a4a10; --find: #7a6110; --find-cur: #c26b00;
+  --quote: #9198a1; --quote-bar: #3d444d;
+  --note: #4493f8; --tip: #3fb950; --important: #ab7df8; --warning: #d29922; --caution: #f85149;
+  --shadow: 0 10px 32px rgba(0,0,0,.5), 0 1px 3px rgba(0,0,0,.4);
+  --hl-keyword: #ff7b72; --hl-string: #a5d6ff; --hl-comment: #8b949e; --hl-number: #79c0ff; --hl-title: #d2a8ff; --hl-attr: #79c0ff; --hl-type: #ffa657; --hl-meta: #e6edf3; --hl-add: #aff5b4; --hl-del: #ffdcd7;
+  --ed-heading: #79c0ff; --ed-link: #4493f8; --ed-code: #ffa657; --ed-mark: #656c76; --ed-quote: #8b949e; --ed-keyword: #ff7b72; --ed-string: #a5d6ff;
+  color-scheme: dark;
+}
+[data-theme="sepia"] {
+  --bg: #f6efe1; --bg-ui: #ede4d1; --bg-ui2: #e5dac4; --bg-hover: #ddd0b6; --bg-sel: #e8d7b0;
+  --fg: #3b3024; --fg-muted: #6f604c; --fg-faint: #9a8a72;
+  --border: #d6c7aa; --border-soft: #e3d6bd;
+  --accent: #a0522d; --accent-fg: #fff; --accent-soft: #ecd9c1;
+  --link: #8b4513;
+  --code-bg: #efe5d2; --code-inline: rgba(120,90,50,.13);
+  --mark: #f5dc8c; --find: #f2c94c; --find-cur: #e67e22;
+  --quote: #6f604c; --quote-bar: #d6c7aa;
+  --hl-keyword: #a1352b; --hl-string: #4f6b1e; --hl-comment: #9a8a72; --hl-number: #8a4f00; --hl-title: #6a3d8f; --hl-attr: #2d5f8b; --hl-type: #8a4f00; --hl-meta: #3b3024;
+  --ed-heading: #8b4513; --ed-link: #8b4513; --ed-code: #8a4f00; --ed-mark: #9a8a72; --ed-quote: #6f604c; --ed-keyword: #a1352b; --ed-string: #4f6b1e;
+  color-scheme: light;
+}
+[data-theme="nord"] {
+  --bg: #2e3440; --bg-ui: #292e39; --bg-ui2: #343a47; --bg-hover: #3b4252; --bg-sel: #434c5e;
+  --fg: #e5e9f0; --fg-muted: #b3bccc; --fg-faint: #7b8598;
+  --border: #434c5e; --border-soft: #3b4252;
+  --accent: #88c0d0; --accent-fg: #2e3440; --accent-soft: #3b4c5a;
+  --link: #88c0d0;
+  --code-bg: #3b4252; --code-inline: rgba(76,86,106,.6);
+  --mark: #5e5a3a; --find: #8a7a3a; --find-cur: #d08770;
+  --quote: #b3bccc; --quote-bar: #4c566a;
+  --note: #81a1c1; --tip: #a3be8c; --important: #b48ead; --warning: #ebcb8b; --caution: #bf616a;
+  --shadow: 0 10px 32px rgba(0,0,0,.45);
+  --hl-keyword: #81a1c1; --hl-string: #a3be8c; --hl-comment: #7b8598; --hl-number: #b48ead; --hl-title: #88c0d0; --hl-attr: #8fbcbb; --hl-type: #8fbcbb; --hl-meta: #d8dee9;
+  --ed-heading: #88c0d0; --ed-link: #88c0d0; --ed-code: #ebcb8b; --ed-mark: #7b8598; --ed-quote: #7b8598; --ed-keyword: #81a1c1; --ed-string: #a3be8c;
+  color-scheme: dark;
+}
+[data-theme="solarized"] {
+  --bg: #fdf6e3; --bg-ui: #eee8d5; --bg-ui2: #e6dfc8; --bg-hover: #e0d8bf; --bg-sel: #e3dcc2;
+  --fg: #3d4f57; --fg-muted: #657b83; --fg-faint: #93a1a1;
+  --border: #d9d2bc; --border-soft: #e8e1cb;
+  --accent: #268bd2; --accent-fg: #fff; --accent-soft: #dceaf2;
+  --link: #268bd2;
+  --code-bg: #f3ecd7; --code-inline: rgba(147,161,161,.2);
+  --mark: #f3e2a0; --find: #f0d264; --find-cur: #cb4b16;
+  --quote: #657b83; --quote-bar: #d9d2bc;
+  --hl-keyword: #859900; --hl-string: #2aa198; --hl-comment: #93a1a1; --hl-number: #d33682; --hl-title: #268bd2; --hl-attr: #b58900; --hl-type: #cb4b16; --hl-meta: #3d4f57;
+  --ed-heading: #268bd2; --ed-link: #268bd2; --ed-code: #cb4b16; --ed-mark: #93a1a1; --ed-quote: #93a1a1; --ed-keyword: #859900; --ed-string: #2aa198;
+  color-scheme: light;
+}
+[data-theme="dracula"] {
+  --bg: #22212c; --bg-ui: #1c1b24; --bg-ui2: #2a2936; --bg-hover: #343245; --bg-sel: #44475a;
+  --fg: #f8f8f2; --fg-muted: #b9b6d0; --fg-faint: #7970a9;
+  --border: #3c3a4f; --border-soft: #2f2d3d;
+  --accent: #bd93f9; --accent-fg: #22212c; --accent-soft: #3d3557;
+  --link: #8be9fd;
+  --code-bg: #2a2936; --code-inline: rgba(68,71,90,.7);
+  --mark: #5c5432; --find: #7d6a2e; --find-cur: #ffb86c;
+  --quote: #b9b6d0; --quote-bar: #44475a;
+  --note: #8be9fd; --tip: #50fa7b; --important: #bd93f9; --warning: #f1fa8c; --caution: #ff5555;
+  --shadow: 0 10px 32px rgba(0,0,0,.5);
+  --hl-keyword: #ff79c6; --hl-string: #f1fa8c; --hl-comment: #7970a9; --hl-number: #bd93f9; --hl-title: #50fa7b; --hl-attr: #8be9fd; --hl-type: #8be9fd; --hl-meta: #f8f8f2;
+  --ed-heading: #bd93f9; --ed-link: #8be9fd; --ed-code: #ffb86c; --ed-mark: #7970a9; --ed-quote: #7970a9; --ed-keyword: #ff79c6; --ed-string: #f1fa8c;
+  color-scheme: dark;
+}
+[data-theme="paper"] {
+  --bg: #fcfcfa; --bg-ui: #f3f3ef; --bg-ui2: #ebebe5; --bg-hover: #e4e4dc; --bg-sel: #e6eef7;
+  --fg: #222; --fg-muted: #666; --fg-faint: #999;
+  --border: #dcdcd4; --border-soft: #ebebe5;
+  --accent: #b5452a; --accent-fg: #fff; --accent-soft: #f4e2dc;
+  --link: #9b3b23;
+  --code-bg: #f3f3ef; --code-inline: rgba(0,0,0,.06);
+  --font-sans: "Iowan Old Style", Charter, Georgia, Cambria, serif;
+  color-scheme: light;
+}
+
+/* ---- Second halves of each theme pair (2026-11-15). Each theme now has a light and a dark version. ---- */
+/* Sepia, dark: warm brown paper at night. */
+[data-theme="sepia-dark"] {
+  --bg: #241d16; --bg-ui: #1d1711; --bg-ui2: #2c241b; --bg-hover: #352b20; --bg-sel: #4a3a28;
+  --fg: #e8dcc6; --fg-muted: #b5a68c; --fg-faint: #85775f;
+  --border: #43372a; --border-soft: #33291f;
+  --accent: #d9935f; --accent-fg: #241d16; --accent-soft: #4a3424;
+  --link: #e0a370;
+  --code-bg: #2c241b; --code-inline: rgba(181,166,140,.16);
+  --mark: #5c4a1e; --find: #7a6224; --find-cur: #d9822b;
+  --quote: #b5a68c; --quote-bar: #4f4232;
+  --note: #8fb3d9; --tip: #9fbf6a; --important: #c49ad6; --warning: #e0b050; --caution: #e07a5f;
+  --shadow: 0 10px 32px rgba(0,0,0,.5), 0 1px 3px rgba(0,0,0,.4);
+  --hl-keyword: #e5826a; --hl-string: #b5c77a; --hl-comment: #85775f; --hl-number: #e0a35a; --hl-title: #c9a0dc; --hl-attr: #8fb3d9; --hl-type: #e0a35a; --hl-meta: #e8dcc6; --hl-add: #b5c77a; --hl-del: #e5826a;
+  --ed-heading: #e0a370; --ed-link: #e0a370; --ed-code: #e0a35a; --ed-mark: #85775f; --ed-quote: #b5a68c; --ed-keyword: #e5826a; --ed-string: #b5c77a;
+  color-scheme: dark;
+}
+/* Solarized, dark: the official Solarized Dark palette (base03 background). */
+[data-theme="solarized-dark"] {
+  --bg: #002b36; --bg-ui: #00252f; --bg-ui2: #073642; --bg-hover: #0b3f4c; --bg-sel: #0e4a59;
+  --fg: #a7b4b4; --fg-muted: #839496; --fg-faint: #657b83;
+  --border: #12434f; --border-soft: #0a3540;
+  --accent: #268bd2; --accent-fg: #fdf6e3; --accent-soft: #0b3d57;
+  --link: #3a9ee0;
+  --code-bg: #073642; --code-inline: rgba(88,110,117,.35);
+  --mark: #4a4310; --find: #6b5d0f; --find-cur: #cb4b16;
+  --quote: #839496; --quote-bar: #1d4e5a;
+  --note: #268bd2; --tip: #859900; --important: #6c71c4; --warning: #b58900; --caution: #dc322f;
+  --shadow: 0 10px 32px rgba(0,0,0,.5), 0 1px 3px rgba(0,0,0,.4);
+  --hl-keyword: #859900; --hl-string: #2aa198; --hl-comment: #657b83; --hl-number: #d33682; --hl-title: #268bd2; --hl-attr: #b58900; --hl-type: #cb4b16; --hl-meta: #93a1a1; --hl-add: #859900; --hl-del: #dc322f;
+  --ed-heading: #268bd2; --ed-link: #3a9ee0; --ed-code: #cb4b16; --ed-mark: #657b83; --ed-quote: #839496; --ed-keyword: #859900; --ed-string: #2aa198;
+  color-scheme: dark;
+}
+/* Nord, light: Nord's "Snow Storm" backgrounds with "Polar Night" text and "Frost" accents. */
+[data-theme="nord-light"] {
+  --bg: #eceff4; --bg-ui: #e5e9f0; --bg-ui2: #dfe4ec; --bg-hover: #d8dee9; --bg-sel: #cfd8e6;
+  --fg: #2e3440; --fg-muted: #4c566a; --fg-faint: #7b8598;
+  --border: #cdd4df; --border-soft: #dde2ea;
+  --accent: #5e81ac; --accent-fg: #ffffff; --accent-soft: #d5e0ee;
+  --link: #4c6f9a;
+  --code-bg: #e5e9f0; --code-inline: rgba(76,86,106,.12);
+  --mark: #f0e2b6; --find: #ebcb8b; --find-cur: #d08770;
+  --quote: #4c566a; --quote-bar: #c5cdd9;
+  --note: #5e81ac; --tip: #5f7f48; --important: #8c6a87; --warning: #9a7530; --caution: #bf616a;
+  --shadow: 0 8px 28px rgba(46,52,64,.14), 0 1px 3px rgba(46,52,64,.08);
+  --hl-keyword: #5e81ac; --hl-string: #5f7f48; --hl-comment: #7b8598; --hl-number: #8c6a87; --hl-title: #3b7c8c; --hl-attr: #4d8584; --hl-type: #4d8584; --hl-meta: #2e3440; --hl-add: #5f7f48; --hl-del: #bf616a;
+  --ed-heading: #5e81ac; --ed-link: #4c6f9a; --ed-code: #a86f3a; --ed-mark: #7b8598; --ed-quote: #7b8598; --ed-keyword: #5e81ac; --ed-string: #5f7f48;
+  color-scheme: light;
+}
+/* Dracula, light: "Alucard", the Dracula team's official light palette. */
+[data-theme="dracula-light"] {
+  --bg: #fffbeb; --bg-ui: #f5f1df; --bg-ui2: #efead5; --bg-hover: #e8e2ca; --bg-sel: #cfcfde;
+  --fg: #1f1f1f; --fg-muted: #635d47; --fg-faint: #8f8a72;
+  --border: #ddd6bd; --border-soft: #ebe5cf;
+  --accent: #644ac9; --accent-fg: #ffffff; --accent-soft: #e6e0f7;
+  --link: #036a96;
+  --code-bg: #f5f1df; --code-inline: rgba(108,102,75,.13);
+  --mark: #f3e6a8; --find: #e8d27a; --find-cur: #a34d14;
+  --quote: #6c664b; --quote-bar: #ddd6bd;
+  --note: #036a96; --tip: #14710a; --important: #644ac9; --warning: #846e15; --caution: #cb3a2a;
+  --shadow: 0 8px 28px rgba(31,31,31,.14), 0 1px 3px rgba(31,31,31,.08);
+  --hl-keyword: #a3144d; --hl-string: #846e15; --hl-comment: #6c664b; --hl-number: #644ac9; --hl-title: #14710a; --hl-attr: #036a96; --hl-type: #036a96; --hl-meta: #1f1f1f; --hl-add: #14710a; --hl-del: #cb3a2a;
+  --ed-heading: #644ac9; --ed-link: #036a96; --ed-code: #a34d14; --ed-mark: #8f8a72; --ed-quote: #6c664b; --ed-keyword: #a3144d; --ed-string: #846e15;
+  color-scheme: light;
+}
+/* Paper, dark: "ink", warm near-black with off-white serif text. */
+[data-theme="paper-dark"] {
+  --bg: #1c1b19; --bg-ui: #171614; --bg-ui2: #232220; --bg-hover: #2c2a27; --bg-sel: #2f3a46;
+  --fg: #e4e1d8; --fg-muted: #a8a49a; --fg-faint: #75726a;
+  --border: #36342f; --border-soft: #292824;
+  --accent: #e07b5f; --accent-fg: #1c1b19; --accent-soft: #452a22;
+  --link: #e8907a;
+  --code-bg: #232220; --code-inline: rgba(255,255,255,.08);
+  --mark: #554a20; --find: #6e5f22; --find-cur: #d9822b;
+  --quote: #a8a49a; --quote-bar: #44413b;
+  --note: #7fa7d6; --tip: #8fbf7a; --important: #b79ad9; --warning: #d6a84a; --caution: #e0705f;
+  --shadow: 0 10px 32px rgba(0,0,0,.5), 0 1px 3px rgba(0,0,0,.4);
+  --hl-keyword: #e88b78; --hl-string: #b8c99a; --hl-comment: #8a867c; --hl-number: #d9a86a; --hl-title: #c6a2dc; --hl-attr: #8fb3d9; --hl-type: #d9a86a; --hl-meta: #e4e1d8; --hl-add: #b8c99a; --hl-del: #e88b78;
+  --ed-heading: #e8907a; --ed-link: #e8907a; --ed-code: #d9a86a; --ed-mark: #75726a; --ed-quote: #a8a49a; --ed-keyword: #e88b78; --ed-string: #b8c99a;
+  --font-sans: "Iowan Old Style", Charter, Georgia, Cambria, serif;
+  color-scheme: dark;
+}

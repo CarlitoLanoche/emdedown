@@ -1,0 +1,12 @@
+web/node_modules/
+web/dist/
+obj/
+.deps/
+
+# Build output: Emdedown.exe is published on the GitHub Releases page, not committed.
+dist/
+
+# Internal working notes, kept locally and not published.
+HANDOFF.md
+Audits/
+Plan/
